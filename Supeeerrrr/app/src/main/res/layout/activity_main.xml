@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/des1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/myChoose"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="153dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="إختياري"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/myChoisePhoto"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        tools:srcCompat="@drawable/rock" />
+
+    <TextView
+        android:id="@+id/computerChooseText"
+        android:layout_width="234dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="إختيار الكمبيوتر"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/computerChoisePhoto"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        tools:srcCompat="@drawable/paper" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/scissors"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="مقص"
+            android:background="@drawable/des2"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/paper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:background="@drawable/des2"
+            android:text="ورق"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/rock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/des2"
+            android:text="حجر"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/scorehumen"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="أنا 0"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/scorecomputer"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="الكمبيوتر 0"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="إعادة"
+        android:background="@drawable/des2"
+        android:textSize="24sp" />
+
+</LinearLayout>
