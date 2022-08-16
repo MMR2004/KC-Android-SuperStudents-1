@@ -176,7 +176,7 @@ public class Game extends AppCompatActivity {
         if (computerChoise2 == "rock"){
             ComputerChoose1.setImageResource(R.drawable.rock);
         }else
-        if (computerChoise2 == "c"){
+        if (computerChoise2 == "scissors"){
             ComputerChoose1.setImageResource(R.drawable.scissors);
         }else
         if (computerChoise2 == "paper"){
