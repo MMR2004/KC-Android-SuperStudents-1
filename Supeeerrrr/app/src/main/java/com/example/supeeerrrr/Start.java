@@ -21,7 +21,7 @@ Button nextpage;
         nextpage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent next =new Intent(Start.this, MainActivity.class);
+                Intent next =new Intent(Start.this, Game.class);
                 startActivity(next);
             }
         });
